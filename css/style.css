@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap:100,200,300,400,500,600|,700'| Slabo+27:100,200,300,400,500,600,700);
+
+
+body,{
+    height:100%;
+    width:100%;
+    margin:0px;
+    padding: 0px;
+}
+/*--NAVBAR--*/
+.navbar {
+    background-color: #17a2ba;
+}
+.navbar .navbar-brand {
+    color: #FFF;
+    font-family: Oswald
+    font-weight: 600;
+}
+.navbar .navbar-nav li a {
+    color: #FFF;
+    font-family:Oswald;
+    font-weight:200;
+}
+
+/*--JUMBOTRON--*/
+.jumbotron {
+    background-image:url("../images/mountain.jpg");
+    background-position:center;
+    background-attachment: fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    align-items:center;
+    vertical-align: central;
+    margin-bottom: 0;
+    height:80vh;
+}
+
+h1 {
+    color:#fff;
+    font-weight: 500;
+    font-family: Oswald;
+}
+.jumbotron p {
+    color:#fff;
+    font-weight: 300;
+}
