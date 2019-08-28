@@ -35,14 +35,14 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Places to visits</a>
+              <a class="nav-link" href="#places_to_visit">Places to visits</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -58,6 +58,7 @@
         <a class="btn btn-info mx-auto" href="#" role="button">Explore more</a>
       </div>
     </div>
+    </section>
   <!--ABOUT LANGKAWI-->
     <section id="about">
       <div class="container-fluid">
@@ -73,4 +74,115 @@
         </div>
       </div>
    </section>
+
+    <div id="map"></div>
     
+    <section id="places_to_visit">
+  <div class="container">
+<div class="card-deck">
+  <div class="card">
+    <img src="images/skybridge.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"> Langkawi Skybridge</h5>
+      <p class="card-text">This is 125 metres cable-stayed bridge completed in 2005 which visitors can walk across the bridge and enjoying the screnary at 660m above sea level. It is assesible through cable cars which runs frequently throughout the day.</p>
+      <a class="btn btn-light mx-auto" href="http://www.panoramalangkawi.com/skybridge/" role="button">Explore more</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/hornbill.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Langkawi Wildlife Parks</h5>
+      <p class="card-text">One of the best wildlife park available in Malaysia where visitors from young to old have various interactions with many wildlife animals there.</p>
+      <a class="btn btn-light mx-auto" href="https://langkawiwildlifepark.com/" role="button">Explore more</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/mangrovepark.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">UNESCO Global Geopark Mangrove</h5>
+      <p class="card-text"> This mangrove forest has been declared as one of the UNESCO Geopark in 2007.  Visitors can book boat trip to explore this place as well as eagle-watching experience.  In addtion, boat trips also may include meals at floating restaurants.</p>
+      <a class="btn btn-light mx-auto" href="https://www.getyourguide.co.uk/langkawi-l903/langkawi-unesco-geopark-mangrove-cruise-t145872/?utm_force=0" role="button">Explore more</a>
+    </div>
+    </div>
+  
+  </div>
+</div>
+<div class="container">
+<div class="card-deck">
+  <div class="card">
+    <img src="images/beach.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"> Beaches</h5>
+      <p class="card-text">There are many beautiful beaches in Langkawi. Some of the popular ones include Cenang Beach and Tanjung Rhu</p>
+      <a class="btn btn-light mx-auto" href="http://www.panoramalangkawi.com/skybridge/" role="button">Explore more</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/Dugong.JPG" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Langkawi Underwater World</h5>
+      <p class="card-text">This place has more than 200 species of fishes and marine mammals.  It is a family friendly places to visit and explore.</p>
+      <a class="btn btn-light mx-auto" href="https://underwaterworldlangkawi.my/" role="button">Explore more</a>
+    </div>
+  </div>
+
+  
+  </div>
+</div>
+</div>
+  </div>
+</section>
+
+  <section id="contact">
+  <div class ="container">
+    <div class="row heading">
+      <div class="col--md-6">
+      <h2> Contact</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container contact-form">
+  <div class="row">
+        <form class="col-md-6 my-4">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" class="form-control" required>
+          </div>
+          
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" class="form-control" required>
+          </div>
+          
+          <div class="form-group">
+            <label>E-mail</label>
+            <input type="email" class="form-control" required>
+          </div>
+          
+          <div class="form-group">
+            <label>Comments</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+          </div>
+
+          <div class="form-group">
+            <button name="submit" type="submit" class="btn btn-info btn-block send-button">Send</button>
+          </div>
+      </form>
+
+      <div class="col-md-6 my-4 office-info">
+        <h5>Admin Office:</h5>
+        <address> 455 Shannon Road, Dublin 1, Ireland </address>
+        <p>Email: Back2Nature@hotmail.com</p>
+        <p>phone: +3531 254 254</p>
+        <p> Opening hours: Mon-Saturday 9am-5pm</p>
+        </div>
+        </div>
+  </div>
+</section>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTEcKsGKBH4aEXXIc7Ti-M-YtEs1Q7ZsE&callback=initMap">
+    </script>
+
+</body>
+</html>
