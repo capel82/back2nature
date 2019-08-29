@@ -1,6 +1,12 @@
+//to initiate modal on clicking 'private tour'button
 document.getElementById('private').addEventListener('click', 
-  function(){
+      function(){
       document.querySelector('.bg-modal').style.display ='flex';
+  });
+//to close modal
+      document.querySelector('.close').addEventListener('click', 
+      function(){
+      document.querySelector('.bg-modal').style.display ='none';
   });
 
 
@@ -61,6 +67,7 @@ function addMarker(props){
   var marker = new google.maps.Marker({
   position:props.coords,
   map:map,
+  animation:google.maps.Animation.DROP,
   });
 
   if (props.content){
