@@ -62,7 +62,7 @@ h4 {
     top:0px;
     justify-content:center;
     align-items: center;
-    display:flex;
+    display:none;
 }
 .modal-content{
     width:500px;
