@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap:100,200,300,400,500,600|,700'| Slabo+27:100,200,300,400,500,600,700);
 
 
-body,{
+body {
     height:100%;
     width:100%;
     margin:0px;
@@ -10,16 +10,16 @@ body,{
 /*--NAVBAR--*/
 .navbar {
     background-color: #17a2ba;
+    font-family: Oswald, sans-serif;
 }
 .navbar .navbar-brand {
     color: #FFF;
-    font-family: Oswald
     font-weight: 600;
 }
 .navbar .navbar-nav li a {
     color: #FFF;
-    font-family:Oswald;
     font-weight:200;
+    font-family: Oswald, sans-serif;
 }
 
 /*--JUMBOTRON--*/
@@ -38,17 +38,15 @@ body,{
 h1 {
     color:#fff;
     font-weight: 500;
-    font-family: Oswald;
+    font-family: Oswald, sans-serif;
 }
 .jumbotron p {
     color:#fff;
     font-weight: 300;
+    font-family: Oswald, sans-serif;
 }
-#about {
-    padding: 20px 40px;
-    box-sizing: padding-box;
-    line-height: normal;
-}
+
+/*--modal--*/
 h4 {
     font-weight:600;
     font-family: Oswald;
@@ -93,25 +91,25 @@ h4 {
     transform: rotate(45deg);
     
 }
-#map {
-    height: 70%;
-    width:70%;
-    margin:auto;
-      }
-html, body {
-          height:100%;
-          width:100%;
-      }
 
-/*--ABOUT LANGKAWI--*/
-#temperature {
-    height:300px;
-    background-color: #17a2ba;
+/*--ABOUT--*/
+
+#about {
+    padding: 20px 40px;
+    box-sizing: padding-box;
+    line-height: normal;
 }
+
+
 /*--places to visit--*/
 #places_to_visit {
-    min-height:1300px;
-    background-color:#f2f2f2;
+    min-height:1000px;
+    background-color:#d2f3f9;
+}
+h2 {
+    padding-top: 20px;
+    font-family: Oswald, sans-serif;
+    color: #17a2ba;
 }
 .card-deck {
     padding-top: 40px;
@@ -119,10 +117,58 @@ html, body {
 .card {
     background-color: #17a2ba;
     color:#fff;
+    position:relative;
 }
+.img {
+    display: block;
+    height:auto;
+    width:100%;
+    object-fit: cover;
+}
+.card-body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height:100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.card:hover .card-body {
+  opacity: 0.9;
+}
+.card-title .card-text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*--MAP--*/
+#map {
+    height: 100%;
+    width:100%;
+    justify-content: center;
+      }
+html, body {
+          height:100%;
+          width:100%;
+      }
+
+img {
+    height:100%;
+    width:70%;
+}
+
+
 /*--CONTACT FORM--*/
 #contact {
-    height:700px;
+    min-height:700px;
     background-color: #d2f3f9;
     margin-top: 30px;
 }
