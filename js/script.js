@@ -166,3 +166,4 @@ svg.selectAll("rect")
   .delay(function(d,i){console.log(i) ; return(i*120)})
 
 })
+
