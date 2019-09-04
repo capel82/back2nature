@@ -10,9 +10,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     
-    
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="images/style.css" type="text/css" />
     
@@ -75,27 +72,28 @@
     
     </section>
   <!--ABOUT LANGKAWI-->
-    <section id="about">
-      <div class="container-fluid">
-        <div class="row my-4">
-          <div class="bg-light col-lg-6">
-            <h4>Langkawi, Malaysia</h4>
-            <p> Langkawi is a district and an archipelago of 99 islands in the Andaman Sea some 30 km off the mainland coast of northwestern Malaysia. Every year tens of thousands of visitors visit Langkawi which also has the status of duty-free shoppings.  Kuah is the largest city and Cenang Beach is one of the popular beaches in Langkawi.</p>
-            <a class="btn btn-info mx-auto" href="#" role="button">Read more</a>
-          </div>
-          <div id="tour" class="bg-light col-lg-6">
-            <h4>What do we specialise in?</h4>
-            <ul class='specialise'>
-            <li>We arrange personalised group tours that suit your budgets, time and needs.</li> 
-            <li>free pick-up and drop-off from accommodations you are staying.</li>
-            <li>arrange meals with our affiliated restaurants</li>
-            </ul>
-            <p>Have a browse with places we offer for visit that suit your time and budgets.</p>
-            <p>Give us a call or fill in the contact form and we will call you back!</p>
-          </div>
-        </div>
+<section id="about">
+  <div class="container-fluid">
+
+    <div class="row my-4 p-4">
+      
+      <div id='infoLangkawi' class="bg-light p-4 col-md-6">
+        <h4>Langkawi, Malaysia</h4>
+        <p> Langkawi is a district and an archipelago of 99 islands in the Andaman Sea some 30 km off the mainland coast of northwestern Malaysia. Every year tens of thousands of visitors visit Langkawi which also has the status of duty-free shoppings. Kuah
+          is the largest city and Cenang Beach is one of the popular beaches in Langkawi.</p>
+        <a class="btn btn-info mx-auto" href="#" role="button">Read more</a>
       </div>
-   </section>
+      
+      <div id="chart" class="bg-light p-4 col-md-6">
+          <h4>Average Temperature in Langkawi</h4>
+      </div>
+      
+    </div>
+
+    
+    
+  </div>
+</section>
 
 <section id="places_to_visit">
   <div class="container">
@@ -190,7 +188,6 @@
 </section>
 
     <div id="map"></div>
-    
 
 
   <section id="contact">
@@ -239,6 +236,7 @@
         </div>
   </div>
 </section>
+<script src="https://d3js.org/d3.v4.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTEcKsGKBH4aEXXIc7Ti-M-YtEs1Q7ZsE&callback=initMap">

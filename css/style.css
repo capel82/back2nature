@@ -98,8 +98,12 @@ h4 {
     padding: 20px 40px;
     box-sizing: padding-box;
     line-height: normal;
+    min-height:630px;
 }
-
+#chart {
+    height:100%;
+    width:100%;
+}
 
 /*--places to visit--*/
 #places_to_visit {
