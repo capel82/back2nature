@@ -145,6 +145,15 @@ svg.selectAll("mybar")
     .attr("width", x.bandwidth())
     .attr("height", function(d) { return height - y(d.Temperatures); })
     .attr("fill", "#17a2ba")
+    .on('mouseover', function(d){
+            d3.select(this)
+            .style("fill", "#d2f3f9");})
+    .on("mouseout", function(d) {
+            d3.select(this)
+            .transition()
+            .duration(300)
+            .style("fill", "#17a2ba");})
+            d3.select("#tooltip").remove()
     .attr("height", function(d) { return height - y(0); })
     .attr("y", function(d) { return y(0); })
 
