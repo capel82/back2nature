@@ -166,18 +166,11 @@ img {
 }
 /*--MAP--*/
 #map {
-  height: 70%;
-  width:70%;
-  position:relative;
-  margin-left: 10px;
-  margin-top: 40px;
-}
-/* Optional: Makes the sample page fill the window. */
-html, body {
   height: 100%;
-  margin: 0;
-  padding: 0;
+  width:100%;
+  position:relative;
 }
+
 body {
   padding: 0 !important;
 }
@@ -198,15 +191,11 @@ table {
   width: 440px;
   z-index: 1;
 }
-#map {
-  margin-top: 40px;
-}
+
 #listing {
   position: relative;
   width: 200px;
-  height: 470px;
-  left: 482px;
-  top: -480px;
+  height: 300px;
   cursor: pointer;
   overflow-x: hidden;
 }
@@ -245,7 +234,7 @@ table {
 }
 #rating {
   font-size: 13px;
-  font-family: Arial Unicode MS;
+  font-family: Oswald, sans-serif;
 }
 .iw_table_row {
   height: 18px;
@@ -275,3 +264,4 @@ table {
 .office-info {
     padding-left: 30px;
 }
+
