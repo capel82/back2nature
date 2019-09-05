@@ -304,9 +304,9 @@ var map, places, infoWindow;
       }
 //TEMPERATURE GRAPH
 // set the dimensions and margins of the graph
-var margin = {top: 30, right: 30, bottom: 70, left: 60},
-    width = 400 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+var margin = {top: 20, right: 20, bottom: 60, left: 50},
+    width = 260 - margin.left - margin.right,
+    height = 260 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#chart")
@@ -384,7 +384,9 @@ svg.selectAll("mybar")
             d3.select("#tooltip").remove()
     
     .attr("height", function(d) { return height - y(0); })
-    .attr("y", function(d) { return y(0); })
+    .attr("y", function(d) { return y(0); 
+      
+    })
 
 // Animation
 svg.selectAll("rect")
