@@ -167,9 +167,10 @@ img {
 /*--MAP--*/
 #map {
   height: 70%;
-  width:100%;
+  width:70%;
   position:relative;
-  margin-left: 40px;
+  margin-left: 10px;
+  margin-top: 40px;
 }
 /* Optional: Makes the sample page fill the window. */
 html, body {
@@ -199,7 +200,6 @@ table {
 }
 #map {
   margin-top: 40px;
-  width: 440px;
 }
 #listing {
   position: relative;
