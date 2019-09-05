@@ -39,6 +39,9 @@
               <a class="nav-link" href="#places_to_visit">Places to visits</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#hotel">Hotels</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -75,17 +78,17 @@
     </section>
   <!--ABOUT LANGKAWI-->
 <section id="about">
-  <div class="container-fluid">
-    <div class="row my-5 p-4">
-      <div id='infoLangkawi' class="bg-light py-3 col-md-6">
+  <div class="container">
+    <div class="row my-5">
+      <div id='infoLangkawi' class="py-3 bg-light col-md-6">
         <h4>Langkawi, Malaysia</h4>
         <p> Langkawi is a district and an archipelago of 99 islands in the Andaman Sea some 30 km off the mainland coast of northwestern Malaysia. Every year tens of thousands of visitors visit Langkawi which also has the status of duty-free shoppings. Kuah
           is the largest city and Cenang Beach is one of the popular beaches in Langkawi.</p>
         <a class="btn btn-info mx-auto" href="#" role="button">Read more</a>
       </div>
       
-      <div id="chart" class="bg-light p-4 col-md-6">
-          <h4>Average Temperature in Langkawi</h4>
+      <div id="chart" class="bg-light col-md-6">
+          <h4 class="text-center pt-2">Average Temperature in Langkawi</h4>
       </div>
       
     </div>
@@ -186,8 +189,60 @@
 
   </div>
 </section>
+<section id="hotel">
+  <h2>Hotels available in Langkawi</h2>
+ <div class="hotel-search">
+      <div id="findhotels">
+        Find hotels in:
+      </div>
 
+      <div id="locationField">
+        <input id="autocomplete" placeholder="Enter a city" type="text" />
+      </div>
+
+      <div id="controls">
+        <select id="country">
+          <option value="all">All</option>
+          <option value="mys">Malaysia</option>
+
+        </select>
+      </div>
+    </div>
+</section>
     <div id="map"></div>
+
+    <div id="listing">
+      <table id="resultsTable">
+        <tbody id="results"></tbody>
+      </table>
+    </div>
+
+    <div style="display: none">
+      <div id="info-content">
+        <table>
+          <tr id="iw-url-row" class="iw_table_row">
+            <td id="iw-icon" class="iw_table_icon"></td>
+            <td id="iw-url"></td>
+          </tr>
+          <tr id="iw-address-row" class="iw_table_row">
+            <td class="iw_attribute_name">Address:</td>
+            <td id="iw-address"></td>
+          </tr>
+          <tr id="iw-phone-row" class="iw_table_row">
+            <td class="iw_attribute_name">Telephone:</td>
+            <td id="iw-phone"></td>
+          </tr>
+          <tr id="iw-rating-row" class="iw_table_row">
+            <td class="iw_attribute_name">Rating:</td>
+            <td id="iw-rating"></td>
+          </tr>
+          <tr id="iw-website-row" class="iw_table_row">
+            <td class="iw_attribute_name">Website:</td>
+            <td id="iw-website"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
 
 
   <section id="contact">
@@ -239,7 +294,7 @@
 <script src="https://d3js.org/d3.v4.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTEcKsGKBH4aEXXIc7Ti-M-YtEs1Q7ZsE&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTEcKsGKBH4aEXXIc7Ti-M-YtEs1Q7ZsE&libraries=places&callback=initMap">
     </script>
 
 </body>
