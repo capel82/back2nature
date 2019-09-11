@@ -6,8 +6,6 @@
     <title>Info Windows</title>
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="images/style.css" type="text/css" />
@@ -21,7 +19,7 @@
 <header id="header">
   <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
     <a class="navbar-brand" href="#">Back2Nature Travel</a>
-    <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
             </span>
             </button>
@@ -85,7 +83,7 @@
         <h4>Langkawi, Malaysia</h4>
         <p> Langkawi is a district and an archipelago of 99 islands in the Andaman Sea some 30 km off the mainland coast of northwestern Malaysia. Every year tens of thousands of visitors visit Langkawi which also has the status of duty-free shoppings. Kuah
           is the largest city and Cenang Beach is one of the popular beaches in Langkawi.</p>
-        <a class="btn btn-info mx-auto" href="#" role="button">Read more</a>
+        <a class="btn btn-info mx-auto" href="https://en.wikipedia.org/wiki/Langkawi" role="button">Read more</a>
       </div>
       <div id="chart" class="bg-light justify-content-center pb-3 col-md-6">
         <h4 class="pt-2">Average Temperature in Langkawi</h4>
@@ -104,23 +102,23 @@
         <img src="images/skybridge.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"> Langkawi Skybridge</h5>
-          <p class="card-text">This is 125 metres cable-stayed bridge which visitors can walk across the bridge and enjoy the screnary at 660m above sea level.</p>
+          <p class="card-text">This bridge is 125 metres and 660metres above sea level which visitors can walk across.</p>
           <a class="btn btn-light mx-auto" href="http://www.panoramalangkawi.com/skybridge/" role="button">Explore more</a>
         </div>
       </div>
       <div class="card">
         <img src="images/hornbill.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Langkawi Wildlife Parks</h5>
-          <p class="card-text">One of the best wildlife park available in Malaysia where visitors from young to old have various interactions with many wildlife animals there.</p>
+          <h5 class="card-title">Langkawi Wildlife Park</h5>
+          <p class="card-text">This is interative wildlife park which suit all ages.</p>
           <a class="btn btn-light mx-auto" href="https://langkawiwildlifepark.com/" role="button">Explore more</a>
         </div>
       </div>
       <div class="card">
         <img src="images/mangrovepark.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">UNESCO Kilim Geopark Mangrove</h5>
-          <p class="card-text">Take a boat trip to explore this mangrove and lunch at floating restaurants.</p>
+          <h5 class="card-title">Kilim Geopark Mangrove</h5>
+          <p class="card-text">Take a boat trip to explore this place and have lunch at floating restaurants.</p>
           <a class="btn btn-light mx-auto" href="https://www.getyourguide.co.uk/langkawi-l903/langkawi-unesco-geopark-mangrove-cruise-t145872/?utm_force=0" role="button">Explore more</a>
         </div>
       </div>
@@ -139,7 +137,7 @@
       <div class="card">
         <img src="images/Dugong.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Langkawi Underwater World</h5>
+          <h5 class="card-title">Underwater World</h5>
           <p class="card-text">Underwater World has housed more than 200 species of marine mammals and fishes.</p>
           <a class="btn btn-light mx-auto" href="https://underwaterworldlangkawi.my/" role="button">Explore more</a>
         </div>
@@ -186,7 +184,7 @@
   </div>
 </section>
 <section id="hotel">
-  <div class="container">
+  <div class="container-fluid">
   <h2>Hotels available in Langkawi</h2>
  
   <div class="row">
@@ -209,7 +207,7 @@
 
   </div>
 
-    <div class="row">
+    <div id ="hotel_map" class="row">
     
       <div class="col-xs-6 col-sm-8">
         <div id="map"></div>
@@ -297,6 +295,9 @@
     </div>
   </div>
 </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://d3js.org/d3.v4.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script async defer
