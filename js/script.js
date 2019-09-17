@@ -41,24 +41,26 @@ var map, places, infoWindow;
 
         // Create the autocomplete object and associate it with the UI input control.
         // Restrict the search to the default country, and to place type "cities".
-        autocomplete = new google.maps.places.Autocomplete(
-            /** @type {!HTMLInputElement} */ (
+        /*autocomplete = new google.maps.places.Autocomplete(
+             @type {!HTMLInputElement}  (
                 document.getElementById('autocomplete')), {
               types: ['(cities)'],
               componentRestrictions: countryRestrict
             });
+            */
         places = new google.maps.places.PlacesService(map);
+        search();
 
-        autocomplete.addListener('place_changed', onPlaceChanged);
+       // autocomplete.addListener('place_changed', onPlaceChanged);
 
         // Add a DOM event listener to react when the user selects a country.
-        document.getElementById('country').addEventListener(
-            'change', setAutocompleteCountry);
+        /*document.getElementById('country').addEventListener(
+            'change', setAutocompleteCountry);*/
       }
 
       // When the user selects a city, get the place details for the city and
       // zoom the map in on the city.
-      function onPlaceChanged() {
+     /* function onPlaceChanged() {
         var place = autocomplete.getPlace();
         if (place.geometry) {
           map.panTo(place.geometry.location);
@@ -67,7 +69,7 @@ var map, places, infoWindow;
         } else {
           document.getElementById('autocomplete').placeholder = 'Enter a city';
         }
-      }
+      }*/
 
       // Search for hotels in the selected city, within the viewport of the map.
       function search() {

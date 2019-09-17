@@ -112,8 +112,15 @@ h4 {
     width:100%;
 }
 
+.fa-check {
+  color:#17a2ba;
+}
+#role_of_company ul{
+  text-align: center;
+  font-size: 18px;
+}
 /*--places to visit--*/
-#places_to_visit {
+#hotels {
     min-height:1000px;
     background-color:#d2f3f9;
 }
@@ -124,7 +131,8 @@ h2 {
 }
 img {
     height:100%;
-    width:70%;
+    width:80%;
+    display:block;
 }
 .card-deck {
     padding-top: 40px;
@@ -134,12 +142,7 @@ img {
     color:#fff;
     position:relative;
 }
-.img {
-    display: block;
-    height:auto;
-    width:100%;
-    object-fit: cover;
-}
+
 .card-body {
   position: absolute;
   top: 0;
@@ -164,93 +167,9 @@ img {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-/*--MAP--*/
-#map {
-  height: 100%;
-  width:100%;
-  position:absolute;
+#hotels .fa-star {
+    color:yellow;
 }
-#hotel_map{
-  margin-top: 20px;
-  margin-left: 20px;
-}
-#hotel {
-  height:90vh;
-}
-
-table {
-  font-size: 12px;
-}
-.hotel-search {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  left: 0;
-  position: relative;
-  top: 0;
-  width: 440px;
-  z-index: 1;
-}
-
-#listing {
-  position: relative;
-  width: 200px;
-  height: 300px;
-  cursor: pointer;
-  overflow-x: hidden;
-}
-#findhotels {
-  font-size: 14px;
-}
-#locationField {
-  -webkit-box-flex: 1 1 190px;
-  -ms-flex: 1 1 190px;
-  flex: 1 1 190px;
-  margin: 0 8px;
-}
-#controls {
-  -webkit-box-flex: 1 1 140px;
-  -ms-flex: 1 1 140px;
-  flex: 1 1 140px;
-}
-#autocomplete {
-  width: 100%;
-}
-#country {
-  width: 100%;
-}
-.placeIcon {
-  width: 20px;
-  height: 34px;
-  margin: 4px;
-}
-.hotelIcon {
-  width: 24px;
-  height: 24px;
-}
-#resultsTable {
-  border-collapse: collapse;
-  width: 240px;
-}
-#rating {
-  font-size: 13px;
-  font-family: Oswald, sans-serif;
-}
-.iw_table_row {
-  height: 18px;
-}
-.iw_attribute_name {
-  font-weight: bold;
-  text-align: right;
-}
-.iw_table_icon {
-  text-align: right;
-}
-
 
 /*--CONTACT FORM--*/
 #contact {
