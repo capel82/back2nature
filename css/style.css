@@ -16,6 +16,11 @@ h4 {
     font-weight:600;
     color:#17a2ba;
 }
+h5 {
+  background-color: #17a2ba;
+  color:#fff;
+  text-align: center;
+}
 h6 {
   background-color:#8c8c8c;
   text-align: center;
@@ -127,6 +132,18 @@ h6 {
 }
 .fa-check {
     color:#17a2ba;
+}
+/*--map--*/
+#map {
+    height: 90%;
+      }
+.places{
+  margin-right:20px;
+  margin-left:20px;
+}
+#map img {
+    height:100%;
+    width:100%;
 }
 
 /*--Itinerary--credit to W3schools.com how to create timeline--*/
