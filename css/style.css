@@ -347,5 +347,13 @@ img {
 }
 .office-info {
     padding-left: 30px;
+    text-align: center;
+    font-size: 22px;
 }
 
+#footer {
+  background-color: #17a2ba;
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
