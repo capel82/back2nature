@@ -1,4 +1,4 @@
- #Back2Nature Travel
+# Back2Nature Travel
 
 ## Introduction
 The aim of this project is to design a front-end website for a travel agent called Back2Nature which specialised in providing private tours in island of Langkawi, Malaysia.  This incorporating HTML, CSS and Javascripts and D3.js.
@@ -56,9 +56,9 @@ To make the ability to have hotels and places all in one map.
 ### E.Technologies Used
 
 **Figma**
-[Adobe](:https://www.adobe.com/ie/products/xd.html?promoid=PYPVQ3HN&mv=other/)
+[Figma](https://www.figma.com)
 
-Why it is being used:  Recommeded by my mentor and it gives a good idea of wireframes even to the details of colours and images.
+Why it is being used: Tools to draft wireframe easily.
 
 **Bootstrap v 4.3**
 
@@ -127,14 +127,18 @@ I then go the settings of Github account page to deploy my website by clicking o
 a. **Contents:** The contents about Langkawi information were taken from [Wikipedia](https://en.wikipedia.org/wiki/Langkawi) websites.  The average temperature.csv was created however by myself judging from temperatures shown in the same wikipedia page.
 
 b. **Codes :**- taken and adjusted
-*modal* - https://www.youtube.com/watch?v=gLWIYk0Sd38&t=2s by RichardCodes : Create a Simple Modal Popup
-*timeline* - https://www.w3schools.com/howto/howto_css_timeline.asp by w3schools.com
-*google maps makers* - https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1457s by Traversy Media : Google Maps JavaScript API Tutorial
-*D3 bar chart* - https://www.d3-graph-gallery.com/graph/barplot_animation_start.html - D3.js Graph Gallery
+
+*modal* - https://www.youtube.com/watch?v=gLWIYk0Sd38&t=2s by **RichardCodes** : Create a Simple Modal Popup
+
+*timeline* - https://www.w3schools.com/howto/howto_css_timeline.asp by **w3schools.com**
+
+*google maps makers* - https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1457s by **Traversy Media** : Google Maps JavaScript API Tutorial
+
+*D3 bar chart* - https://www.d3-graph-gallery.com/graph/barplot_animation_start.html -**D3.js Graph Gallery**
 
 c.. **Photos used:**  The photos used were taken from several sites as below:
 
-•1. Jumbotron background image - * https://www.thecrazytourist.com/25-best-things-to-do-in-langkawi-malaysia/
+*1. Jumbotron background image -* https://www.thecrazytourist.com/25-best-things-to-do-in-langkawi-malaysia/
 
 *2. Google map Infowindows -*
 Langkawi Skybridge - https://en.wikipedia.org/wiki/Langkawi_Sky_Bridge
@@ -155,11 +159,12 @@ Geopark Mangrove -https://www.thedanna.com/en/the-hotel/location/unesco-discover
 
 Wildlife Park - https://www.shoreexcursions.asia/langkawi-wildlife-park-and-crocodile-farm/
 
-*2.Hotels*
-- all images for hotels taken from www.booking.com
-https://www.pastemagazine.com/blogs/lists/2011/04/the-15-best-kinks-songs-1.html
+*3.Hotels-*
 
-l
+**all** images for hotels taken from www.booking.com.
+
+
+
 ### I. Acknowledgement
 A special thanks to my mentor **Maranatha Ilesanmi** who has very kindly encouraged, guided and taught me with so much patience towards me in finishing this second milestone project.
 
