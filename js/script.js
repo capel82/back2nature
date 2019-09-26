@@ -168,7 +168,7 @@ svg.selectAll("mybar")
     .attr("height", function(d) { return height - y(0); })
     .attr("y", function(d) { return y(0); 
       
-    })
+    });
 
 // Animation
 svg.selectAll("rect")
@@ -176,7 +176,7 @@ svg.selectAll("rect")
   .duration(400)
   .attr("y", function(d) { return y(d.Temperatures); })
   .attr("height", function(d) { return height - y(d.Temperatures); })
-  .delay(function(d,i){console.log(i) ; return(i*120)})
+  .delay(function(d,i){console.log(i) ; return(i*120)});
 
-})
+});
 
