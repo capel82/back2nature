@@ -1,10 +1,9 @@
 
-
 function sendEmail(contactForm){
     emailjs.send ("outlook","back2nature",{
         "from_name":contactForm.name.value,
         "from_email":contactForm.emailaddress.value,
-        "queries":contactForm.comments.value,
+        "Queries":contactForm.queries.value,
     })
 .then (
     function(response){
