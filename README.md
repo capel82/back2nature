@@ -1,13 +1,16 @@
 # Back2Nature Travel
 
 ## Introduction
-The aim of this project is to design a front-end website for a travel agent called Back2Nature which specialised in providing private tours in island of Langkawi, Malaysia.  This incorporating HTML, CSS and Javascripts and D3.js.
+The aim of this project is to design a front-end website for a travel agent called Back2Nature which specialised in providing private tours in island of Langkawi, Malaysia.  This incorporating HTML, CSS and Javascripts, D3.js and email.js.
 
 ### A. Objectives
 The objectives of creating this webpages are:
-* to make customers aware of the existence of travel agent in Langkawi that can customise and arrange private tours to visit places in Langkawi.  This especially suit for visitors who want less stressful holidays as transports and tour guide are provided according to their needs and budgets.
- to give ideas of places available to visit in Langkawi by using google maps.
-to provide general ideas on hotels available ranging from 3 stars to 5 stars hotels.
+
+-to make customers aware of the existence of travel agent in Langkawi that can customise and arrange private tours to visit places in Langkawi.  This especially suit for visitors who want less stressful holidays as transports and tour guide are provided according to their needs and budgets.
+
+-to give ideas of places available to visit in Langkawi by using google maps.
+
+-to provide general ideas on hotels available ranging from 3 stars to 5 stars hotels.
 
 
 ### B. Wireframes
@@ -43,7 +46,7 @@ Below the map, an example of itinerary of a day tour is illustrated through time
 
 -**Hotels** - This page uses card decks group components from Bootstrap 4 with CSS animations  to show different hotels available in Langkawi.  A brief features of hotels are illustrated on hovering at each card and utilises font awesome icons for easier grasp of information.  User can easily navigate to each hotel official sites through the link provided by clicking on ‘Book’ button on each card.
 
--**Contact page** - This page uses form features of bootstraps.  Users can choose either to fill in the form to be contacted back or they can choose to call or visit the admin office directly. Three fields of Your Name, Telephone number and E-mail are made as required fields so that if user not fill in any of the fields, message will appear to ask to fill in.
+-**Contact page** - This page uses form features of bootstraps.  Users can choose either to fill in the form to be contacted back or they can choose to call or visit the admin office directly. Three fields of Your Name, E-mail and queries are made as required fields so that if user not fill in any of the fields, message will appear to ask to fill in.
 
 **_Features to implement in future_**
 
@@ -82,6 +85,9 @@ Why is being used: Using the latest Cascading Style Sheets to support for respon
 **D3.js**
 Why is being used: required to create the simple bar chart.
 
+**Email.js**
+Why is being used: to make the webpage less static and more interative. Queries can be sent to business email account.
+
 [W3C Markup Validation Service](https://validator.w3.org/)
 Why it is being used: to help to validate codes
 
@@ -112,15 +118,17 @@ The website also tested with my iPhone SE and MacAir.
 **Contact Form** - checked by entering incorrect information ie wrong format emails will show the form is correctly validated. If required field not filled, error message will come out to ask to fill the field.
 
 ### G. Deployment
-As introduced by Code Institute, I have used *Cloud9 IDE* which supports [Github](https://github.com/) and Git repositories as the main platform to develop my website.
+As introduced by Code Institute, I have used *Cloud9 IDE* through AWS website which supports [Github](https://github.com/) and Git repositories as the main platform to develop my website.
 
-Codes developed in Cloud 9 IDE were committed to Git with a repository created in Github beforehand. Then I pushed them to Github through in-built function of Cloud 9 IDE.
+Codes developed in Cloud 9 IDE were committed to Git with a repository created in Github beforehand. 
 
-Then I signed into Github account and clicked on the **repository** with the name **‘Capel82/Back2Nature’**
+Then I pushed them to Github through in-built function of Cloud 9 IDE.
+
+Then I signed into Github account and clicked on the **repository** with the name **‘Capel82/back2nature’**
 
 This showed the files, images, readme and assets.  
 
-I then go the settings of Github account page to deploy my website by clicking on the published webpage address on Github Pages.
+I then go the settings of Github account page, scroll to Github Page and select Source as 'Master Branch' and Theme Choose as "Cayman". My site is then published as displayed by the link which i can click on to deploy.
 
 ### H.Credits
 
@@ -135,6 +143,8 @@ b. **Codes :**- taken and adjusted
 *google maps makers* - https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1457s by **Traversy Media** : Google Maps JavaScript API Tutorial
 
 *D3 bar chart* - https://www.d3-graph-gallery.com/graph/barplot_animation_start.html -**D3.js Graph Gallery**
+
+*email.js* - as taught by Code Institute 'Sending Emails using EmailJS'.
 
 c.. **Photos used:**  The photos used were taken from several sites as below:
 
