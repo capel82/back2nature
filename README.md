@@ -115,7 +115,7 @@ The website also tested with my iPhone SE and MacAir.
 **modal** - modal appeared on clicking ‘private tour’ button with darken background and able to close the modal using the closing button.
 
 
-**Contact Form** - checked by entering incorrect information ie wrong format emails will show the form is correctly validated. If required field not filled, error message will come out to ask to fill the field.
+**Contact Form** - checked by entering incorrect information ie wrong format emails will show the form is correctly validated. If required field not filled, error message will come out to ask to fill the field. When form is filled and click on 'send', the button changes color and to 'sent'.
 
 ### G. Deployment
 As introduced by Code Institute, I have used *Cloud9 IDE* through AWS website which supports [Github](https://github.com/) and Git repositories as the main platform to develop my website.
