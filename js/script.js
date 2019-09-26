@@ -1,3 +1,4 @@
+//credit to RichardCodes
 //to initiate modal on clicking 'private tour'button
 document.getElementById('private').addEventListener('click', 
       function(){
@@ -9,6 +10,7 @@ document.getElementById('private').addEventListener('click',
       document.querySelector('.bg-modal').style.display ='none';
   });
 
+//credit to Travesy Media 
 //initiate google map, centering at Langkawi
 function initMap(){
   var centerMap = {
@@ -81,7 +83,7 @@ function addMarker(coords){
   }
 }
 
-
+//credit to D3.js Graph Library
 //TEMPERATURE GRAPH
 // set the dimensions and margins of the graph
 var margin = {top: 20, right: 20, bottom: 60, left: 50},

@@ -1,455 +1,456 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <title>Info Windows</title>
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css"/>
-    <link rel="stylesheet" href="images/style.css" type="text/css"/>
-    <script src="https://kit.fontawesome.com/b028e2bb88.js"></script>
-    
 
-  </head>
-  <body>
-    
-<!--NAVBAR-->
-<header id="header">
-  <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
-    <a class="navbar-brand" href="#">Back2Nature Travel</a>
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <title>Info Windows</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="images/style.css" type="text/css" />
+  <script src="https://kit.fontawesome.com/b028e2bb88.js"></script>
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+      emailjs.init("user_ziLQHEFT2ducPaftBjIXI");
+    })();
+  </script>
+</head>
+
+<body>
+
+  <!--NAVBAR-->
+  <header id="header">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">Back2Nature Travel</a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
             </span>
             </button>
 
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#map">Places to visits</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#hotels">Hotels</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
+          <li class="nav-item">
+            <a class="nav-link" href="#map">Places to visits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hotels">Hotels</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-<!--SHOUTOUT JUMBOTRON-->
-<section id="shoutout">
-  <div class="jumbotron jumbotron-fluid">
-    <div class="overlay mx-auto p-5">
+  <!--SHOUTOUT JUMBOTRON-->
+  <section id="shoutout">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="overlay mx-auto p-5">
+        <div class="container">
+          <h2 class="display-5  my-2 langkawi_title">LANGKAWI</h2>
+          <p class="lead mx-auto">Your Next Holiday Destination in Malaysia</p>
+          <p><a id="private" class="btn btn-info mx-auto" href="#" role="button">Private Tours</a></p>
+        </div>
+      </div>
+      <div class="bg-modal">
+        <div class="modal-header">
+          <h4 class='mx-auto my-2'>How we personalised private tours?</h4>
+          <div class="close">+</div>
+          <div class="modal-content">
+            <ol class='ways'>
+              <li>Browse places available</li>
+              <li>Choose between 1 to 3 places to visit in a day</li>
+              <li>Tell us your budgets and needs</li>
+              <li>We draft out the itinerary including pick-ups and drops-off from your chosen location</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--ABOUT LANGKAWI-->
+  <section id="about">
     <div class="container">
-      <h2 class="display-5  my-2 langkawi_title">LANGKAWI</h2>
-      <p class="lead mx-auto">Your Next Holiday Destination in Malaysia</p>
-      <p><a id="private" class="btn btn-info mx-auto" href="#" role="button">Private Tours</a></p>
+      <div class="row mt-5 mb-2">
+        <div id='infoLangkawi' class="py-1 bg-light col-md-6">
+          <h2>About</h2>
+          <h4>Langkawi, Malaysia</h4>
+          <p> Langkawi is a district and an archipelago of 99 islands in the Andaman Sea some 30 km off the mainland coast of northwestern Malaysia. Every year tens of thousands of visitors visit Langkawi which also has the status of duty-free shoppings.
+            Kuah is the largest city and Cenang Beach is one of the popular beaches in Langkawi.</p>
+          <a class="btn btn-info mx-auto" href="https://en.wikipedia.org/wiki/Langkawi" role="button">Read more</a>
+        </div>
+        <div id="chart" class="bg-light justify-content-center pb-3 col-md-6">
+          <h4 class="pt-2">Average Temperature in Langkawi</h4>
+        </div>
+      </div>
+
+      <div id="role_of_company" class="row">
+        <div class="col-md-12 justify-content-center">
+          <h2 class="text-center"> Who Are We?</h2>
+          <ol class="specialised d-flex"></ol>
+          <li><i class="fa fa-check"></i> We are travel agent based in Langkawi that specialised in private tours.</li>
+          <li><i class="fa fa-check"></i> We can arrange private tours for group of 2 to 15 people.</li>
+          <li><i class="fa fa-check"></i> Our tour guides can speak fluently English, Chinese and Malays.</li>
+          <li><i class="fa fa-check"></i> We have fully air-conditioned vehicles and fully insured drivers.</li>
+          <li><i class="fa fa-check"></i> We do pick-ups and drop-offs from and to any places in Langkawi.</li>
+          <li><i class="fa fa-check"></i> We can arrange meals in restaurants or any eatery of your preferences in Langkawi.</li>
+          <li><i class="fa fa-check"></i> Our fees are according to number of days and vehicles required rather than number of places to visit.</li>
+
+          <p class="text-center my-3"><a class="btn btn-info btn-lg" href="#contact" role="button">Get Your Quote Now!</a></p>
+
+        </div>
+      </div>
     </div>
+  </section>
+  <div class="container-fluid bg-light">
+    <h2>Places to Visit</h2>
   </div>
-  <div class="bg-modal">
-    <div class="modal-header">
-      <h4 class='mx-auto my-2'>How we personalised private tours?</h4>
-      <div class="close">+</div>
-      <div class="modal-content">
-        <ol class='ways'>
-          <li>Browse places available</li>
-          <li>Choose between 1 to 3 places to visit in a day</li>
-          <li>Tell us your budgets and needs</li>
-          <li>We draft out the itinerary including pick-ups and drops-off from your chosen location</li>
-        </ol>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!--ABOUT LANGKAWI-->
-<section id="about">
-  <div class="container">
-    <div class="row mt-5 mb-2">
-      <div id='infoLangkawi' class="py-1 bg-light col-md-6">
-        <h2>About</h2>
-        <h4>Langkawi, Malaysia</h4>
-        <p> Langkawi is a district and an archipelago of 99 islands in the Andaman Sea some 30 km off the mainland coast of northwestern Malaysia. Every year tens of thousands of visitors visit Langkawi which also has the status of duty-free shoppings. Kuah
-          is the largest city and Cenang Beach is one of the popular beaches in Langkawi.</p>
-        <a class="btn btn-info mx-auto" href="https://en.wikipedia.org/wiki/Langkawi" role="button">Read more</a>
-      </div>
-      <div id="chart" class="bg-light justify-content-center pb-3 col-md-6">
-        <h4 class="pt-2">Average Temperature in Langkawi</h4>
-      </div>
-    </div>
-
-    <div id="role_of_company" class="row">
-      <div class="col-md-12 justify-content-center">
-        <h2 class="text-center"> Who Are We?</h2>
-        <ol class="specialised d-flex"></ol>
-        <li><i class="fa fa-check"></i> We are travel agent based in Langkawi that specialised in private tours.</li>
-        <li><i class="fa fa-check"></i> We can arrange private tours for group of 2 to 15 people.</li>
-        <li><i class="fa fa-check"></i> Our tour guides can speak fluently English, Chinese and Malays.</li>
-        <li><i class="fa fa-check"></i> We have fully air-conditioned vehicles and fully insured drivers.</li>
-        <li><i class="fa fa-check"></i> We do pick-ups and drop-offs from and to any places in Langkawi.</li>
-        <li><i class="fa fa-check"></i> We can arrange meals in restaurants or any eatery of your preferences in Langkawi.</li>
-        <li><i class="fa fa-check"></i> Our fees are according to number of days and vehicles required rather than number of places to visit.</li>
-
-        <p class="text-center my-3"><a class="btn btn-info btn-lg" href="#contact" role="button">Get Your Quote Now!</a></p>
-
-      </div>
-    </div>
-  </div>
-</section>
-<div class="container-fluid bg-light">
-<h2>Places to Visit</h2>
-</div>
-<div id="map" class="places"></div>
+  <div id="map" class="places"></div>
 
 
-<section id="itinerary">
-  <div class="container">
-    <h2 class="text-center">Example of A Day of Itinerary</h2>
-    <div class="row justify-content-center">
-      <div class="col-md-6 col-lg-8">
-        <div class="timeline">
+  <section id="itinerary">
+    <div class="container">
+      <h2 class="text-center">Example of A Day of Itinerary</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-8">
+          <div class="timeline">
 
-          <div class="timeline_container left">
-            <div class="content">
-              <h4 class="time_title">0900am Pick-Up</h4>
-              <i class="fas fa-bus fa-2x"></i>
-              <p>Any locations on the island of Langkawi.</p>
+            <div class="timeline_container left">
+              <div class="content">
+                <h4 class="time_title">0900am Pick-Up</h4>
+                <i class="fas fa-bus fa-2x"></i>
+                <p>Any locations on the island of Langkawi.</p>
+              </div>
             </div>
-          </div>
-          <div class="timeline_container right">
-            <div class="content">
-              <h4 class="time_title">0930am Langkawi Cable Car and Skybridge</h4>
-              <i class="fas fa-map-marker-alt fa-2x"></i>
-              <p>Duration:2 1/2hours</p>
-              <img class="img-responsive" src="images/skybridge.jpg" alt="_blank">
+            <div class="timeline_container right">
+              <div class="content">
+                <h4 class="time_title">0930am Langkawi Cable Car and Skybridge</h4>
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+                <p>Duration:2 1/2hours</p>
+                <img class="img-responsive" src="images/skybridge.jpg" alt="_blank">
+              </div>
             </div>
-          </div>
-          <div class="timeline_container left">
-            <div class="content">
-              <h4 class="time_title">12noon Lunch</h4>
-              <i class="fas fa-utensils fa-2x"></i>
-              <p>Skybridge</p>
-              <p>Duration: 1 and 1/2 hour</p>
+            <div class="timeline_container left">
+              <div class="content">
+                <h4 class="time_title">12noon Lunch</h4>
+                <i class="fas fa-utensils fa-2x"></i>
+                <p>Skybridge</p>
+                <p>Duration: 1 and 1/2 hour</p>
+              </div>
             </div>
-          </div>
-          <div class="timeline_container right">
-            <div class="content">
-              <h4>1330pm Seven Wells Waterfalls</h4>
-              <i class="fas fa-map-marker-alt fa-2x"></i>
-              <p>Duration:2 hours</p>
-              <img class="img-responsive" src="images/sevenwells.jpg" alt="_blank">
+            <div class="timeline_container right">
+              <div class="content">
+                <h4>1330pm Seven Wells Waterfalls</h4>
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+                <p>Duration:2 hours</p>
+                <img class="img-responsive" src="images/sevenwells.jpg" alt="_blank">
+              </div>
             </div>
-          </div>
-          <div class="timeline_container left">
-            <div class="content">
-              <h4>1600pm Mangrove Boat Trip</h4>
-              <i class="fas fa-map-marker-alt fa-2x"></i>
-              <i class="fas fa-utensils fa-2x"></i>
-              <p> Duration: 2 and 1/2 hours</p>
-              <p>Boat Trip and dinner at floating restaurant</p>
-              <img class="img-responsive" src="images/mangrovepark.jpg" alt="_blank">
+            <div class="timeline_container left">
+              <div class="content">
+                <h4>1600pm Mangrove Boat Trip</h4>
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+                <i class="fas fa-utensils fa-2x"></i>
+                <p> Duration: 2 and 1/2 hours</p>
+                <p>Boat Trip and dinner at floating restaurant</p>
+                <img class="img-responsive" src="images/mangrovepark.jpg" alt="_blank">
+              </div>
             </div>
-          </div>
-          <div class="timeline_container right">
-            <div class="content">
-              <h4>1830pm Drop-offs</h4>
-              <i class="fas fa-bus fa-2x"></i>
-              <p>Back to accommodation or any locations in langakawi</p>
+            <div class="timeline_container right">
+              <div class="content">
+                <h4>1830pm Drop-offs</h4>
+                <i class="fas fa-bus fa-2x"></i>
+                <p>Back to accommodation or any locations in langakawi</p>
+              </div>
             </div>
-          </div>
 
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="hotels">
-  <div class="container">
-    <h2>Hotels in Langkawi</h2>
-<!--1st row of card-deck-->
-    <div class="card-deck">
-      <div class="card">
-        <img class="card-img" src="images/berjaya.jpg" class="card-img-top" alt="_blank">
-        <div class="card-img-overlay">
-          <h6>Berjaya Langkawi Resort</h6>
-        </div>
-        <div class="card-body">
-          <ul class="ratings">
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-          </ul>
-          <ul class="facilities">
-            <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
-            <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
-            <li><i class="fas fa-parking"></i> Free Parking </li>
-            <li><i class="fas fa-umbrella-beach"></i> Beachfront</li>
-          </ul>
-          <p><a class="btn btn-light btn-sm" href="https://www.guestreservations.com/berjaya-langkawi-resort/booking?gclid=EAIaIQobChMIsZPuyKrL5AIVB7TtCh1htAvJEAAYAiAAEgIV8fD_BwE" role="button">Book Now</a></p>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img" src="images/Andaman.jpg" class="card-img-top" alt="_blank">
-        <div class="card-img-overlay">
-          <h6>Andaman Luxury Resort</h6>
-        </div>
-        <div class="card-body">
-          <ul class="ratings">
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-          </ul>
-          <ul class="facilities">
-            <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
-            <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
-            <li><i class="fas fa-parking"></i> Free Parking </li>
-            <li><i class="fas fa-umbrella-beach"></i> Beachfront</li>
-          </ul>
-          <p><a class="btn btn-light btn-sm" href="https://www.guestreservations.com/the-andaman-a-luxury-collection-resort-langkawi/booking?gclid=EAIaIQobChMIldvzuenX5AIVTsDeCh3bAg7DEAAYAiAAEgLMKvD_BwE" role="button">Book Now</a></p>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img" src="images/ambong.jpg" class="card-img-top" alt="_blank">
-        <div class="card-img-overlay">
-          <h6>Ambong Pools Villas</h6>
-        </div>
-        <div class="card-body">
-          <ul class="ratings">
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-          </ul>
-          <ul class="facilities">
-            <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
-            <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
-            <li><i class="fas fa-parking"></i> Free Parking </li>
-            <li><i class="fas fa-umbrella-beach"></i> Beachfront</li>
-          </ul>
-          <p><a class="btn btn-light btn-sm" href="https://www.ambongpoolvillas.com/" role="button">Book Now</a></p>
-        </div>
-      </div>
-    </div>
-    <!--closing div for card-deck-->
-<!--2nd row of card decks-->
-    <div class="card-deck">
-      <div class="card">
-        <img class="card-img" src="images/lagoon.jpg" class="card-img-top" alt="_blank">
-        <div class="card-img-overlay">
-          <h6>Ombak Lagoon Langkawi Resort</h6>
-        </div>
-        <div class="card-body">
-          <ul class="ratings">
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-          </ul>
-          <ul class="facilities">
-            <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
-            <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
-            <li><i class="fas fa-parking"></i> Free Parking </li>
-            <li><i class="fas fa-umbrella-beach"></i> Beachfront</li>
-          </ul>
-          <p><a class="btn btn-light btn-sm" href="https://www.booking.com/" role="button">Book Now</a></p>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img" src="images/goldsands.jpg" class="card-img-top" alt="...">
-        <div class="card-img-overlay">
-          <h6>Goldsands Hotel</h6>
-        </div>
-        <div class="card-body">
-          <ul class="ratings">
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
+  <section id="hotels">
+    <div class="container">
+      <h2>Hotels in Langkawi</h2>
+      <!--1st row of card-deck-->
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img" src="images/berjaya.jpg" class="card-img-top" alt="_blank">
+          <div class="card-img-overlay">
+            <h6>Berjaya Langkawi Resort</h6>
+          </div>
+          <div class="card-body">
+            <ul class="ratings">
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
             </ul>
-          <ul class="facilities">
-            <li><i class="fas fa-swimmer"></i> Indoor swimming pool</li>
-            <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
-            <li><i class="fas fa-parking"></i> Free Parking </li>
-          </ul>
-          <p><a class="btn btn-light btn-sm" href="http://www.goldsandslangkawi.com" role="button">Book Now</a></p>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img" src="images/templetree.jpg" class="card-img-top" alt="_blank">
-        <div class="card-img-overlay">
-          <h6>Temple Tree Heritage Resort</h6>
-        </div>
-        <div class="card-body">
-          <ul class="ratings">
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-          </ul>
-          <ul class="facilities">
-            <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
-            <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
-            <li><i class="fas fa-parking"></i> Free Parking </li>
-          </ul>
-          <p><a class="btn btn-light btn-sm" href="http://www.templetree.com.my/" role="button">Book Now</a></p>
-        </div>
-      </div>
-    </div>
-    <!-- closing div for card-deck-->
-
-<!--3rd row of card-deck-->
- <div class="card-deck">
-      <div class="card">
-        <img class="card-img" src="images/bellavista.jpg" class="card-img-top" alt="_blank">
-        <div class="card-img-overlay">
-          <h6>Bella Vista Resort</h6>
-        </div>
-        <div class="card-body">
-          <h6 class="card-title"> Bella Vista Resort</h6>
-          <ul class="ratings">
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-          </ul>
-          <ul class="facilities">
-            <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
-            <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
-            <li><i class="fas fa-parking"></i> Free Parking </li>
-          </ul>
-          <p><a class="btn btn-light btn-sm" href="http://bellavistahotelsandresorts.com/" role="button">Book Now</a></p>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img" src="images/yatch.jpg" class="card-img-top" alt="_blank">
-        <div class="card-img-overlay">
-          <h6>Yatch Club Resort</h6>
-        </div>
-        <div class="card-body">
-          <h6 class="card-title"> Yatch Club Resort </h6>
-          <ul class="ratings">
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
+            <ul class="facilities">
+              <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
+              <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
+              <li><i class="fas fa-parking"></i> Free Parking </li>
+              <li><i class="fas fa-umbrella-beach"></i> Beachfront</li>
             </ul>
-          <ul class="facilities">
-            <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
-            <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
-            <li><i class="fas fa-parking"></i> Free Parking </li>
-          </ul>
-          <p><a class="btn btn-light btn-sm" href="https://langkawiyachtclubhotel.com/" role="button">Book Now</a></p>
-
-
+            <p><a class="btn btn-light btn-sm" href="https://www.guestreservations.com/berjaya-langkawi-resort/booking?gclid=EAIaIQobChMIsZPuyKrL5AIVB7TtCh1htAvJEAAYAiAAEgIV8fD_BwE" role="button">Book Now</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="images/Andaman.jpg" class="card-img-top" alt="_blank">
+          <div class="card-img-overlay">
+            <h6>Andaman Luxury Resort</h6>
+          </div>
+          <div class="card-body">
+            <ul class="ratings">
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+            </ul>
+            <ul class="facilities">
+              <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
+              <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
+              <li><i class="fas fa-parking"></i> Free Parking </li>
+              <li><i class="fas fa-umbrella-beach"></i> Beachfront</li>
+            </ul>
+            <p><a class="btn btn-light btn-sm" href="https://www.guestreservations.com/the-andaman-a-luxury-collection-resort-langkawi/booking?gclid=EAIaIQobChMIldvzuenX5AIVTsDeCh3bAg7DEAAYAiAAEgLMKvD_BwE" role="button">Book Now</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="images/ambong.jpg" class="card-img-top" alt="_blank">
+          <div class="card-img-overlay">
+            <h6>Ambong Pools Villas</h6>
+          </div>
+          <div class="card-body">
+            <ul class="ratings">
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+            </ul>
+            <ul class="facilities">
+              <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
+              <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
+              <li><i class="fas fa-parking"></i> Free Parking </li>
+              <li><i class="fas fa-umbrella-beach"></i> Beachfront</li>
+            </ul>
+            <p><a class="btn btn-light btn-sm" href="https://www.ambongpoolvillas.com/" role="button">Book Now</a></p>
+          </div>
         </div>
       </div>
-      <div class="card">
-        <img class="card-img" src="images/seaviewhotel.jpg" class="card-img-top" alt="_blank">
-        <div class="card-img-overlay">
-          <h6>Seaview Hotel Langkawi</h6>
+      <!--closing div for card-deck-->
+      <!--2nd row of card decks-->
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img" src="images/lagoon.jpg" class="card-img-top" alt="_blank">
+          <div class="card-img-overlay">
+            <h6>Ombak Lagoon Langkawi Resort</h6>
+          </div>
+          <div class="card-body">
+            <ul class="ratings">
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+            </ul>
+            <ul class="facilities">
+              <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
+              <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
+              <li><i class="fas fa-parking"></i> Free Parking </li>
+              <li><i class="fas fa-umbrella-beach"></i> Beachfront</li>
+            </ul>
+            <p><a class="btn btn-light btn-sm" href="https://www.booking.com/" role="button">Book Now</a></p>
+          </div>
         </div>
-        <div class="card-body">
-          <h6 class="card-title"> Seaview Hotel Langkawi</h6>
-          <ul class="ratings">
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-            <li class="list-inline-item"><i class="fas fa-star"></i></li>
-          </ul>
-          <ul class="facilities">
-            <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
-            <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
-            <li><i class="fas fa-parking"></i> Free Parking </li>
-          </ul>
-          <p><a class="btn btn-light btn-sm" href="https://www.langkawiseaviewhotel.com/?gclid=EAIaIQobChMIusDK7JTf5AIVwbTtCh19XA-hEAAYASAAEgJfHvD_BwE" role="button">Book Now</a></p>
+        <div class="card">
+          <img class="card-img" src="images/goldsands.jpg" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <h6>Goldsands Hotel</h6>
+          </div>
+          <div class="card-body">
+            <ul class="ratings">
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+            </ul>
+            <ul class="facilities">
+              <li><i class="fas fa-swimmer"></i> Indoor swimming pool</li>
+              <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
+              <li><i class="fas fa-parking"></i> Free Parking </li>
+            </ul>
+            <p><a class="btn btn-light btn-sm" href="http://www.goldsandslangkawi.com" role="button">Book Now</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="images/templetree.jpg" class="card-img-top" alt="_blank">
+          <div class="card-img-overlay">
+            <h6>Temple Tree Heritage Resort</h6>
+          </div>
+          <div class="card-body">
+            <ul class="ratings">
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+            </ul>
+            <ul class="facilities">
+              <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
+              <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
+              <li><i class="fas fa-parking"></i> Free Parking </li>
+            </ul>
+            <p><a class="btn btn-light btn-sm" href="http://www.templetree.com.my/" role="button">Book Now</a></p>
+          </div>
+        </div>
+      </div>
+      <!-- closing div for card-deck-->
+
+      <!--3rd row of card-deck-->
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img" src="images/bellavista.jpg" class="card-img-top" alt="_blank">
+          <div class="card-img-overlay">
+            <h6>Bella Vista Resort</h6>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title"> Bella Vista Resort</h6>
+            <ul class="ratings">
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+            </ul>
+            <ul class="facilities">
+              <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
+              <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
+              <li><i class="fas fa-parking"></i> Free Parking </li>
+            </ul>
+            <p><a class="btn btn-light btn-sm" href="http://bellavistahotelsandresorts.com/" role="button">Book Now</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="images/yatch.jpg" class="card-img-top" alt="_blank">
+          <div class="card-img-overlay">
+            <h6>Yatch Club Resort</h6>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title"> Yatch Club Resort </h6>
+            <ul class="ratings">
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+            </ul>
+            <ul class="facilities">
+              <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
+              <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
+              <li><i class="fas fa-parking"></i> Free Parking </li>
+            </ul>
+            <p><a class="btn btn-light btn-sm" href="https://langkawiyachtclubhotel.com/" role="button">Book Now</a></p>
+
+
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="images/seaviewhotel.jpg" class="card-img-top" alt="_blank">
+          <div class="card-img-overlay">
+            <h6>Seaview Hotel Langkawi</h6>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title"> Seaview Hotel Langkawi</h6>
+            <ul class="ratings">
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              <li class="list-inline-item"><i class="fas fa-star"></i></li>
+            </ul>
+            <ul class="facilities">
+              <li><i class="fas fa-swimmer"></i> Outdoor swimming pool</li>
+              <li><i class="fas fa-wifi"></i> Free Wi-fi </li>
+              <li><i class="fas fa-parking"></i> Free Parking </li>
+            </ul>
+            <p><a class="btn btn-light btn-sm" href="https://www.langkawiseaviewhotel.com/?gclid=EAIaIQobChMIusDK7JTf5AIVwbTtCh19XA-hEAAYASAAEgJfHvD_BwE" role="button">Book Now</a></p>
+          </div>
+        </div>
+      </div>
+      <!-- closing div for card-deck-->
+    </div>
+    <!--closing div for container-->
+  </section>
+  <!--closing hotel section-->
+
+  <section id="contact">
+    <div class="container">
+      <div class="row heading">
+        <div class="col--md-6">
+          <h2> Contact</h2>
         </div>
       </div>
     </div>
-    <!-- closing div for card-deck-->
-  </div>
-  <!--closing div for container-->
-</section>
-<!--closing hotel section-->
+    <div class="container contact-form">
+      <div class="row">
+        <form onsubmit="return sendEmail(this);" method="POST" class="col-md-6 my-4">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" name="name" class="form-control" required>
+          </div>
 
-<section id="contact">
-  <div class="container">
-    <div class="row heading">
-      <div class="col--md-6">
-        <h2> Contact</h2>
+          <div class="form-group">
+            <label>E-mail</label>
+            <input type="email" name="emailaddress" class="form-control" required>
+          </div>
+
+          <div class="form-group">
+            <label>Queries</label>
+            <textarea class="form-control" name="queries" rows="5" id="comment"></textarea>
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="btn btn-info btn-block send-button">Send</button>
+          </div>
+        </form>
+
+        <div class="col-md-6 my-5 office-info">
+          <h5>Admin Office:</h5>
+          <address> 544, Jalan Keratapi, Kuah, Langkawi, Malaysia </address>
+          <p>Email: Back2Nature@hotmail.com</p>
+          <p>phone: +6011 254 254</p>
+          <p> Opening hours: Mon-Saturday 8am-6pm</p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="container contact-form">
+  </section>
+
+  <div id="footer" class="container-fluid">
     <div class="row">
-      <form class="col-md-6 my-4">
-        <div class="form-group">
-          <label>Your Name</label>
-          <input type="text" class="form-control" required>
-        </div>
-
-        <div class="form-group">
-          <label>Phone Number</label>
-          <input type="tel" class="form-control" required>
-        </div>
-
-        <div class="form-group">
-          <label>E-mail</label>
-          <input type="email" class="form-control" required>
-        </div>
-
-        <div class="form-group">
-          <label>Comments</label>
-          <textarea class="form-control" rows="5" id="comment"></textarea>
-        </div>
-
-        <div class="form-group">
-          <button name="submit" type="submit" class="btn btn-info btn-block send-button">Send</button>
-        </div>
-      </form>
-
-      <div class="col-md-6 my-5 office-info">
-        <h5>Admin Office:</h5>
-        <address> 544, Jalan Keratapi, Kuah, Langkawi, Malaysia </address>
-        <p>Email: Back2Nature@hotmail.com</p>
-        <p>phone: +6011 254 254</p>
-        <p> Opening hours: Mon-Saturday 8am-6pm</p>
+      <div class="col-md-12">
+        <a href="http://www.facebook.com/" target="_blank"><i class="icons fab fa-facebook-square text-white fa-2x mx-3"></i></a>
+        <a href="http://www.instagram.com/" target="_blank"><i class="icons fab fa-instagram text-white fa-2x mx-3"></i></a>
+        <a href="http://www.twitter.com/" target="_blank"><i class="icons fab fa-twitter text-white fa-2x mx-3"></i></a>
       </div>
     </div>
   </div>
-</section>
 
-<div id="footer" class="container-fluid">
-  <div class="row">
-    <div class="col-md-12">
-      <a href="http://www.facebook.com/" target="_blank"><i class="icons fab fa-facebook-square text-white fa-2x mx-3"></i></a>
-      <a href="http://www.instagram.com/" target="_blank"><i class="icons fab fa-instagram text-white fa-2x mx-3"></i></a>
-      <a href="http://www.twitter.com/" target="_blank"><i class="icons fab fa-twitter text-white fa-2x mx-3"></i></a>
-    </div>
-  </div>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="https://d3js.org/d3.v4.js"></script>
-<script src="js/script.js"></script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTEcKsGKBH4aEXXIc7Ti-M-YtEs1Q7ZsE&callback=initMap">
-</script>
-    
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="js/script.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTEcKsGKBH4aEXXIc7Ti-M-YtEs1Q7ZsE&callback=initMap">
+  </script>
+  <script src="js/sendEmail.js"></script>
 </body>
+
 </html>
