@@ -39,6 +39,7 @@ I can see clear contact page in which this travel agent can be contacted either 
 
 
 -**Home page** - The jumbotron is responsive with responsive headings.  Button feature is used so user can click on ‘Private Tour’ with a modal appears in the centre with darkened background.  This uses simple javascript D.O.M features.
+
 -**About section** - This section uses bootstrap 4 grid system for responsiveness.  User can get simple idea of Langkawi and if they want to know more, user can click on the button ‘More’ which linked to wikipedia for more readings.  Also in the same row is the average temperature bar chart created using D3.js with simple animation when user hover over each month that changes colour to lighter blue.  Again, there is another button for request quotes is set at the end of information about this travel agent’s roles. By clicking on the request quote button, it will direct users to contact page.
 
 -**Places to Visit** - This page requires google maps API which helps to display locations of popular places to visit in Langkawi.  Markers of these places have been manually inserted with the use of Javascript and documentation from Google maps.  Infowindows are customised to allow user to briefly know the place by viewing the image of each place.  Each info windows can be closed down before clicking on the next marker so there is no overcrowding of informations on the google maps.  Links of the places also provided inside the info windows for easier navigation by clicking on ‘more info’ button.
@@ -50,9 +51,11 @@ Below the map, an example of itinerary of a day tour is illustrated through time
 
 **_Features to implement in future_**
 
-To make D3.chart responsive.
-To make timeline in cooperating javascript animation that the timeline appears whenever user in their viewports.
-To make the ability to have hotels and places all in one map.
+1.To make D3.chart responsive.
+
+2.To make timeline in cooperating javascript animation that the timeline appears whenever user in their viewports.
+
+3.To make the ability to have hotels and places all in one map.
 
 4.Contact form - to be able to incorporate GDPR consent and CAPTCHA.
 
