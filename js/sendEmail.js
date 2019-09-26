@@ -1,4 +1,5 @@
 
+
 function sendEmail(contactForm){
     emailjs.send ("outlook","back2nature",{
         "from_name":contactForm.name.value,
@@ -12,4 +13,5 @@ function sendEmail(contactForm){
     function(error){
         console.log("FAILED", error);
     });
+    return false;
 }
